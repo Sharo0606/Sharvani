@@ -1,0 +1,1 @@
+Place project screenshots, logo files, or other visual assets in this folder.

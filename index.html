@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduGenie - AI Learning Assistant</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>EduGenie</h1>
+      <p>Google Gemini Powered Learning</p>
+    </div>
+    <span class="badge">AI Study Assistant</span>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>Learn smarter with AI</h2>
+      <p>Ask questions, simplify difficult topics, create notes, and practice with quizzes.</p>
+    </section>
+
+    <section class="card">
+      <label for="question">What do you want to learn?</label>
+      <textarea id="question" placeholder="Example: Explain photosynthesis in simple words"></textarea>
+      <div class="actions">
+        <button onclick="askEduGenie()">Ask EduGenie</button>
+        <button class="secondary" onclick="clearAnswer()">Clear</button>
+      </div>
+    </section>
+
+    <section class="card answer-card">
+      <h3>AI Response</h3>
+      <div id="answer">Your answer will appear here.</div>
+    </section>
+
+    <section class="features">
+      <div class="feature"><b>💬 Ask</b><span>Academic questions</span></div>
+      <div class="feature"><b>📚 Explain</b><span>Simple explanations</span></div>
+      <div class="feature"><b>📝 Notes</b><span>Quick study notes</span></div>
+      <div class="feature"><b>❓ Quiz</b><span>Practice questions</span></div>
+    </section>
+  </main>
+
+  <footer>EduGenie • AI-assisted learning project</footer>
+  <script src="src/gemini.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>

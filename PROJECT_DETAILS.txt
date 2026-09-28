@@ -1,0 +1,5 @@
+PROJECT TITLE: EduGenie: Google Gemini Powered Learning
+PROJECT TYPE: AI-Based Educational Learning Assistant
+PRIMARY TECHNOLOGY: HTML, CSS, JavaScript
+AI TECHNOLOGY: Google Gemini
+PURPOSE: Interactive academic learning support
